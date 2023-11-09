@@ -1,0 +1,36 @@
+html,
+body,
+#react-root {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* --------------------------------------------------------------------------------
+Button
+-------------------------------------------------------------------------------- */
+
+/* This line makes the "Register" and "Login" buttons look like links */
+.btn_asLink {
+  padding: 0;
+  border-width: 0;
+  border-bottom: 1px solid #444;
+  border-radius: 0;
+  background: none;
+  font: inherit;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn_asLink:hover {
+  background-color: transparent;
+  border-color: #000;
+  color: #000;
+}

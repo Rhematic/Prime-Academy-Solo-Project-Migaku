@@ -1,0 +1,15 @@
+.NameBox {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to display */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.DetailBox {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to display */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

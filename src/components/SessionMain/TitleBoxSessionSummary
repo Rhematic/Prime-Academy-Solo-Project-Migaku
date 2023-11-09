@@ -1,0 +1,6 @@
+import React from 'react'; import {TitleBox} from "../../../utils/boxThemes";
+const TitleBoxSessionSummary = () => { return (
+<TitleBox>
+  <h1>Session Summary</h1>
+</TitleBox>
+); }; export default TitleBoxSessionSummary;
