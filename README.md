@@ -1,4 +1,51 @@
-# Migaku
+![Logo](public/images/Wild_transparent.png "Project Logo")
+
+---
+
+<p align="center"> Migaku (磨く) is an app to help you progress, organize, and track your improvement playing kendama. </p>
+
+# Features
+
+- A spaced-repetition approach to provide the user with tricks to practice based on their current skill level
+- Users track their progress and see how they have improved over time via session history (to be implemented)
+- Kendama World Cup (KWC) official videos are linked to each trick along with text descriptions to help users understand how to perform the trick
+- Users can add a note for themselves
+
+## How it Works
+
+- The user self-reports the number of attempts to land a trick and the algorithm adjusts the user's proficiency level accordingly
+- After the user has completed a session, their net proficiency level is re-calculated and they are provided with tricks at their level
+
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="public/images/readme_card_front.png" alt="Front of Session Card" width="200"/>
+        <figcaption>Front of Session Card</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="public/images/readme_card_back.png" alt="Back of Session Card" width="200"/>
+        <figcaption>Back of Session Card</figcaption>
+      </figure>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <figure>
+        <img src="public/images/readme_card_summary.png" alt="Session Summary" width="200"/>
+        <figcaption>Session Summary</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="public/images/readme_card_results.png" alt="Results" width="200"/>
+        <figcaption>Results</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
 
 ## Development Setup Instructions
 
@@ -36,3 +83,7 @@ Before pushing to Heroku, run `npm run build` in terminal. This will create a bu
 1. Create the necessary tables
 1. Add an environment variable for `SERVER_SESSION_SECRET` with a nice random string for security
 1. In the deploy section, select manual deploy
+
+<p align="center">
+  <img src="public/images/kendama_spinning_rave.gif" alt="Spinning Kendama">
+</p>
